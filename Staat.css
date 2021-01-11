@@ -19,14 +19,14 @@ li, .links, .Button1 {
   writing-mode: horizontal;
   text-orientation: upright;
   text-transform: uppercase;
-  margin-left: 50px
+  margin-left: 40px
 }
 
 
 
 header {
   display: flex;
-
+  justify-content: flex-start;
   align-items: center;
   padding: 20px;
   background-color: #3378B9;
