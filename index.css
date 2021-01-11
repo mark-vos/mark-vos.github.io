@@ -1,0 +1,351 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding 0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.list, .links, .Button1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 650;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  margin-left: 40px
+}
+
+
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #3378B9;
+}
+
+
+
+.logo {
+  max-width:12.5%;
+  height:auto;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0;
+}
+
+.nav_links li a:hover {
+  color: #0088a9
+}
+
+.Button1 {
+  padding: 9px 25px;
+  background-color: rgba(18,17,68,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  margin-left: 900px;
+}
+
+.Button1:hover {
+  background-color: rgba(18,17,68,0.8);
+}
+
+
+.Sectie1 {
+  width: auto;
+  height: 700px;
+  background-image: url(images/Webp.net-gifmaker.gif);
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  background-position: center;
+
+}
+
+.Sectie1 h1  {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: #edf0f1;
+  text-align: left;
+  position: absolute;
+  left: 250px;
+  top: 480px;
+}
+
+.Sectie1 h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #e3e3e3;
+  text-align: left;
+  position: absolute;
+  left: 250px;
+  top: 535px;
+  width: 700px;
+}
+
+
+.Sectie2 {
+  display: flex;
+}
+
+.SectieA {
+  width: 1000px;
+  height: 470px;
+  background: #FFFFFF
+}
+
+.Sectiea {
+  display: flex;
+}
+
+.SectieA h1 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  left: 50px;
+  top: 60px;
+}
+
+.Button2 {
+  position: relative;
+  left: 50px;
+  top: 75px;
+  padding: 5px 15px;
+  background-color: #3378B9;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  color: #edf0f1;
+}
+
+.TekstBut2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: #edf0f1;
+}
+
+
+
+.Button2:hover {
+  background-color: rgba(51,120,185,0.4);
+}
+
+.SectieB {
+  width: 1000px;
+  height: 470px;
+  background: #FFFFFF;
+}
+
+.Sectieb {
+  display: flex;
+}
+
+.SectieB h1 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  left: 50px;
+  top: 60px;
+}
+
+.SectieA p {
+  position: relative;
+  left: 50px;
+  top: 70px;
+  width: 500px
+}
+
+.SectieB p {
+  position: relative;
+  left: 50px;
+  top: 70px;
+  width: 500px
+}
+
+.Ontdek {
+  position: relative;
+  top: 70px;
+  height: 250px;
+  width: auto;
+  margin-left: 100px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.Staat {
+  position: relative;
+  top: 70px;
+  height: 250px;
+  width: auto;
+  margin-left: 100px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+}
+
+.Sectiea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.Sectie3 {
+  width: auto;
+  height: 600px;
+  background-color: #3378B9
+}
+
+.Sectie3A {
+  width: 100%;
+  height: 100px;
+}
+
+.Sectie3 h1 {
+  font-family: "Open Sans";
+  font-weight: 1000;
+  font-size: 60px;
+  color: #edf0f1;
+  padding-top: 25px;
+}
+
+.Button3 {
+  position: relative;
+  left: 50px;
+  top: 0px;
+  padding: 7.5px 20px;
+  background-color: rgba(18,17,68,1);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+
+}
+
+.TekstBut3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 725;
+  font-size: 20px;
+  text-decoration: none;
+  color: #edf0f1
+}
+
+.Button3:hover {
+  background-color: rgba(18,17,68,0.8);
+}
+
+
+
+.footer {
+  width: 100%
+}
+
+.footer-content {
+  height: 250px;;
+  background-color: #2265a3;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-copyright {
+  height: 75px;
+  background-color: #1f5a91;
+
+}
+
+.logo-section {
+  height: 250px;;
+  width: 450px;
+}
+
+.logo-section img {
+  height: 200px;;
+  width: auto;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 22px;
+}
+
+.Kopje {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  list-style: none;
+  transition: all 0.3s ease 0;
+}
+
+.Title  {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 650;
+  font-size: 30px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  list-style: none;
+
+}
+
+.about-section {
+  height: 250px;;
+  width: 1000px;
+}
+
+.about-section ul {
+  margin-left: 750px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.inschrijven-section ul {
+  margin-left: 10px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.inschrijven-section {
+  height: 250px;;
+  width: 400px;;
+}
+
+.Kopje:hover {
+  color: rgba(237,240,241,0.4);
+}
+
+.footer-copyright h1 {
+  position: relative;
+  top: 25px;
+  color: #edf0f1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}

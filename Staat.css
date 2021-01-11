@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding 0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+li, .links, .Button1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 650;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  margin-left: 50px
+}
+
+
+
+header {
+  display: flex;
+
+  align-items: center;
+  padding: 20px;
+  background-color: #3378B9;
+}
+
+
+
+.logo {
+  max-width:12.5%;
+  height:auto;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0;
+}
+
+.nav_links li a:hover {
+  color: #0088a9
+}
+
+.Button1 {
+  padding: 9px 25px;
+  background-color: rgba(18,17,68,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  margin-left: 800px;
+}
+
+.Button1:hover {
+  background-color: rgba(18,17,68,0.8);
+}
+
+.headimg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+}
+
+
+
+.intro, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #3f3f40;
+  margin-left: 150px;
+  width: 1300px;
+  margin-bottom: 80px;
+}
+
+.container {
+  background-color: #F9F9F9;
+  width: 100%;
+  height: 1000px;
+}
+
+.tekst1 {
+  margin-left: 150px;
+  width: 1300px;
+}
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  position: relative;
+  top: 70px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  top: 65px;
+}
+
+.infocards {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  position: relative;
+  top: 100px;
+}
+
+.card1, .card2, .card3 {
+  width: 26.5%;
+  height: 100%;
+  background-image:         linear-gradient(to bottom, #3378B9 20%, white 0.001%);
+  border-radius: 2.5%;
+  margin: 50px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.Thierry {
+  object-fit: cover;
+  object-position: 70% 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.Kim{
+  object-fit: cover;
+  object-position: 30% 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.Donald {
+  object-fit: cover;
+  object-position: 45% 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: #474747;
+}
+
+.p1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  position: relative;
+  top: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+
+.download {
+  position: relative;
+  left: 50px;
+  top: 75px;
+  padding: 5px 15px;
+  background-color: #3378B9;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  color: #edf0f1;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tekstdown {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #edf0f1;
+  margin-left: 5px;
+}
+
+.downloadimg {
+ height: 30px;
+ width: auto;
+ margin: 7.5px 5px;
+}
+
+.download:hover {
+  background-color: rgba(51,120,185,0.8);
+}
+
+
+.footer {
+  width: 100%
+}
+
+.footer-content {
+  height: 250px;;
+  background-color: #2265a3;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-copyright {
+  height: 75px;
+  background-color: #1f5a91;
+
+}
+
+.logo-section {
+  height: 250px;;
+  width: 450px;
+}
+
+.logo-section img {
+  height: 200px;;
+  width: auto;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 22px;
+}
+
+.Kopje {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  list-style: none;
+  transition: all 0.3s ease 0;
+}
+
+.Title  {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 650;
+  font-size: 30px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  list-style: none;
+
+}
+
+.about-section {
+  height: 250px;;
+  width: 1000px;
+}
+
+.about-section ul {
+  margin-left: 750px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.inschrijven-section ul {
+  margin-left: 10px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.inschrijven-section {
+  height: 250px;;
+  width: 400px;;
+}
+
+.Kopje:hover {
+  color: rgba(237,240,241,0.4);
+}
+
+.footer-copyright h1 {
+  position: relative;
+  top: 25px;
+  color: #edf0f1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 200px;
+}

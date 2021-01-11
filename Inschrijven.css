@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding 0;
+
+}
+
+
+
+li, .links, .Button1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 650;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  margin-left: 40px
+}
+
+
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #3378B9;
+}
+
+
+
+.logo {
+  max-width:12.5%;
+  height:auto;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0;
+}
+
+.nav_links li a:hover {
+  color: #0088a9
+}
+
+.Button1 {
+  padding: 9px 25px;
+  background-color: rgba(18,17,68,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  margin-left: 900px;
+}
+
+.button1:hover {
+  background-color: rgba(18,17,68,0.8);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  background-color: White;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+
+section {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.formgroup {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.formgroup input,
+.formgroup textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.button2 {
+  width: 90%;
+  max-width: 500px;
+  padding: 10px;
+  background-color: #3378B9;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  color: #edf0f1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  position: relative;
+
+}
+
+.button2:hover {
+  background-color: rgba(51,120,185,0.8);
+}
+
+#status {
+  font-weight: bold;
+  font-size: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: rgba(235, 158, 52);
+  display: none;
+}
+
+.suctekst {
+  color: white;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.inschrijven {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: White;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+
+.footer {
+  width: 100%
+}
+
+.footer-content {
+  height: 250px;;
+  background-color: #2265a3;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-copyright {
+  height: 75px;
+  background-color: #1f5a91;
+
+}
+
+.logo-section {
+  height: 250px;;
+  width: 450px;
+}
+
+.logo-section img {
+  height: 200px;;
+  width: auto;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 22px;
+}
+
+.Kopje {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  list-style: none;
+  transition: all 0.3s ease 0;
+}
+
+.Title  {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 650;
+  font-size: 30px;
+  color: #edf0f1;
+  text-decoration: none;
+  writing-mode: horizontal;
+  text-orientation: upright;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  list-style: none;
+
+}
+
+.about-section {
+  height: 250px;;
+  width: 1000px;
+}
+
+.about-section ul {
+  margin-left: 750px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.inschrijven-section ul {
+  margin-left: 10px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.inschrijven-section {
+  height: 250px;;
+  width: 400px;;
+}
+
+.Kopje:hover {
+  color: rgba(237,240,241,0.4);
+}
+
+.footer-copyright h1 {
+  position: relative;
+  top: 25px;
+  color: #edf0f1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 200px;
+}
