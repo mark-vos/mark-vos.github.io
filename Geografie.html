@@ -148,7 +148,7 @@
       let images_array = [
         "images/Landschap1.jpg",
         "images/Landschap2.jpg",
-        "images/Landschap3.jpg",,
+        "images/Landschap3.jpg",
         "images/Landschap4.jpg",
         "images/Landschap5.jpg",
       ];
@@ -159,9 +159,9 @@
       setInterval(function() {
           i = (i + 1) %  images_array.length;
         $(document).ready(function() {
-          pic.fadeOut(400, () => {
+          pic.fadeOut(0, () => {
               pic.attr("src", images_array[i]);
-            pic.fadeIn(400);
+            pic.fadeIn(0);
           });
         });
       }, 4500);

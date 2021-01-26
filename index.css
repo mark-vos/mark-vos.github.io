@@ -19,7 +19,6 @@ a {
   writing-mode: horizontal;
   text-orientation: upright;
   text-transform: uppercase;
-  margin-left: 40px
 }
 
 
@@ -32,7 +31,9 @@ header {
   background-color: #3378B9;
 }
 
-
+nav {
+  width: 1600px;
+}
 
 .logo {
   max-width:12.5%;
@@ -48,6 +49,7 @@ header {
 
 .nav_links li {
   display: inline-block;
+  margin-left: 5%;
 }
 
 .nav_links li a {
@@ -65,7 +67,6 @@ header {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0;
-  margin-left: 900px;
 }
 
 .Button1:hover {
@@ -112,7 +113,7 @@ header {
 }
 
 .SectieA {
-  width: 1000px;
+  width: 50%;
   height: 470px;
   background: #FFFFFF
 }
@@ -121,8 +122,16 @@ header {
   display: flex;
 }
 
+.Sectiea p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 .SectieA h1 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
   position: relative;
   left: 50px;
   top: 60px;
@@ -131,7 +140,7 @@ header {
 .Button2 {
   position: relative;
   left: 50px;
-  top: 75px;
+  top: 80px;
   padding: 5px 15px;
   background-color: #3378B9;
   border: none;
@@ -140,9 +149,10 @@ header {
   color: #edf0f1;
 }
 
+
 .TekstBut2 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   text-decoration: none;
   color: #edf0f1;
@@ -155,7 +165,7 @@ header {
 }
 
 .SectieB {
-  width: 1000px;
+  width: 50%;
   height: 470px;
   background: #FFFFFF;
 }
@@ -166,6 +176,8 @@ header {
 
 .SectieB h1 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
   position: relative;
   left: 50px;
   top: 60px;
@@ -190,7 +202,7 @@ header {
   top: 70px;
   height: 250px;
   width: auto;
-  margin-left: 100px;
+  margin-left: 70px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
 
@@ -199,14 +211,15 @@ header {
   top: 70px;
   height: 250px;
   width: auto;
-  margin-left: 100px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+  margin-left: 70px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
 
 .Sectiea {
   font-family: "Open Sans", sans-serif;
   font-weight: 200;
   font-size: 14px;
+  width: 900px;
 }
 
 .Sectie3 {

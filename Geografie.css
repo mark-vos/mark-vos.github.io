@@ -6,8 +6,7 @@
 }
 
 
-
-li, .links, .Button1 {
+.list, .links, .Button1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 650;
   font-size: 16px;
@@ -16,8 +15,6 @@ li, .links, .Button1 {
   writing-mode: horizontal;
   text-orientation: upright;
   text-transform: uppercase;
-  word-wrap: break-word;
-  margin-left: 40px
 }
 
 
@@ -29,6 +26,48 @@ header {
   padding: 20px;
   background-color: #3378B9;
 }
+
+nav {
+  width: 1600px;
+}
+
+.logo {
+  max-width:12.5%;
+  height:auto;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0;
+}
+
+.nav_links li a:hover {
+  color: #0088a9
+}
+
+.Button1 {
+  padding: 9px 25px;
+  background-color: rgba(18,17,68,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+}
+.Button1:hover {
+  background-color: rgba(18,17,68,0.8);
+}
+
 
 .ligging img {
   width: auto;
@@ -62,48 +101,6 @@ header {
   color: #edf0f1;
 }
 
-
-.logo {
-  max-width:12.5%;
-  height:auto;
-  position: relative;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.nav_links {
-  list-style: none;
-}
-
-.nav_links li {
-  display: inline-block;
-}
-
-.nav_links li a {
-  transition: all 0.3s ease 0;
-}
-
-.nav_links li a:hover {
-  color: #0088a9;
-}
-
-.Button1 {
-  padding: 9px 25px;
-  background-color: rgba(18,17,68,1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0;
-  margin-left: 900px;
-}
-
-.Button1:hover {
-  background-color: rgba(18,17,68,0.8);
-}
-
-
-
-
 .imgbreed {
   width: 100%;
   height: 400px;
@@ -114,7 +111,6 @@ header {
   display: flex;
   width: 100%;
   height: 600px;
-  m
 }
 
 .slidetekst {
@@ -143,7 +139,6 @@ header {
 .slidetekst p {
   font-size: 22px;
   font-weight: lighter;
-
 }
 
 .gallery {
@@ -202,7 +197,7 @@ header {
 
 .video {
   width: 700px;
-  height: 394px;
+  height: 393.75px;
   margin-top: 8%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }

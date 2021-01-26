@@ -7,7 +7,7 @@
 
 
 
-li, .links, .Button1 {
+.list, .links, .Button1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 650;
   font-size: 16px;
@@ -16,8 +16,6 @@ li, .links, .Button1 {
   writing-mode: horizontal;
   text-orientation: upright;
   text-transform: uppercase;
-  word-wrap: break-word;
-  margin-left: 40px
 }
 
 
@@ -30,7 +28,9 @@ header {
   background-color: #3378B9;
 }
 
-
+nav {
+  width: 1600px;
+}
 
 .logo {
   max-width:12.5%;
@@ -46,6 +46,7 @@ header {
 
 .nav_links li {
   display: inline-block;
+  margin-left: 5%;
 }
 
 .nav_links li a {
@@ -63,7 +64,6 @@ header {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0;
-  margin-left: 900px;
 }
 
 .button1:hover {
@@ -76,7 +76,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
@@ -117,7 +117,7 @@ textarea {
 
 .button2 {
   width: 90%;
-  max-width: 500px;
+  max-width: 700px;
   padding: 10px;
   background-color: #3378B9;
   border: none;
@@ -140,7 +140,7 @@ textarea {
   font-weight: bold;
   font-size: 20px;
   width: 90%;
-  max-width: 500px;
+  max-width: 700px;
   text-align: center;
   padding: 10px;
   margin: 0 auto;
@@ -155,12 +155,16 @@ textarea {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 45px;
+}
+
+p {
+  font-size: 22px;
 }
 
 .inschrijven {
   width: 90%;
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 20px;
   background-color: White;
@@ -168,6 +172,20 @@ h1 {
   margin-bottom: 40px;
 }
 
+.Aanmeldingen {
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
+}
+
+.Aantal {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 45px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
+}
 
 .footer {
   width: 100%

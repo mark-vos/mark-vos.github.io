@@ -57,14 +57,32 @@
           </form>
         </div>
 
-          <button class="button2" id="button2">Verstuur</button>
+        <button onclick="addone()"class="button2" id="button2">Verstuur</button>
 
         <div id="status" class="succes">
         <p class="suctekst">Succesvol verzonden!</p>
         </div>
+
+        <h1 class="Aanmeldingen">Aanmeldingen</h1>
+        <h2 class="Aantal"><span id="thisone"></span></h2>
+
       </section>
 
     <script>
+    const yourScore = document.getElementById("thisone");
+
+    function updateYourScore(score) {
+      yourScore.textContent = score;
+    }
+
+    updateYourScore(2491);
+
+    function addone(){
+          var foo = document.getElementById('thisone').innerHTML;
+          foo++;
+          document.getElementById('thisone').innerHTML = foo;
+        }
+
     $(document).ready(function() {
         $("#button2").click(function() {
             $("#status").show();

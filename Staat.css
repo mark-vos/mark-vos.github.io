@@ -10,7 +10,7 @@ a {
 }
 
 
-li, .links, .Button1 {
+.list, .links, .Button1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 650;
   font-size: 16px;
@@ -19,7 +19,6 @@ li, .links, .Button1 {
   writing-mode: horizontal;
   text-orientation: upright;
   text-transform: uppercase;
-  margin-left: 40px
 }
 
 
@@ -32,7 +31,9 @@ header {
   background-color: #3378B9;
 }
 
-
+nav {
+  width: 1600px;
+}
 
 .logo {
   max-width:12.5%;
@@ -48,6 +49,7 @@ header {
 
 .nav_links li {
   display: inline-block;
+  margin-left: 5%;
 }
 
 .nav_links li a {
@@ -65,7 +67,6 @@ header {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0;
-  margin-left: 800px;
 }
 
 .Button1:hover {
